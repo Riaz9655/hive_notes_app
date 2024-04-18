@@ -104,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen> {
         context: context,
         builder:(context){
           return AlertDialog(
-            title: const Text('Edit NOTES'),
+            title: const Text('Edit Notes'),
             content: SingleChildScrollView(
               child: Column(
                 children: [
