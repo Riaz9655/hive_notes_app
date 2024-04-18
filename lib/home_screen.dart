@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       delete(data[index]);
                                     },
                                     child: const Icon(Icons.delete , color: Colors.white,)),
-                                const SizedBox(width: 15,),
+                                const SizedBox(width: 16,),
                                 InkWell(
                                     onTap: (){
                                       _editDialog(data[index], data[index].title.toString(), data[index].description.toString());
